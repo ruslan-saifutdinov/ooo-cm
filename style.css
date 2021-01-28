@@ -1,8 +1,8 @@
 
 body {
-  margin-left: 20%;
-  margin-right: 20%;
-  width: 60%;
+  margin-left: 15%;
+  margin-right: 15%; 
+  width: 70%;
   min-width: 750px;
   font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
   font-size: 16px;
@@ -17,10 +17,9 @@ body {
 }
 
 .logo-cm {
-	width: 200px;
-	border-radius: 10%;
-	border: solid 1px;
-	padding: 10px;
+	width: 250px;
+	padding: 0px;
+	
 }
 
 .navigation {
@@ -37,7 +36,8 @@ body {
 .navigation a{
 	padding-right: 20px;
 	color: black;
-}
+	line-height: 50px;
+	}
 
 .navigation a { 
    
@@ -57,7 +57,7 @@ body {
 
 .page-header {
   margin: 0 0 0px;
-  padding: 32px 0 32px;
+  padding: 5px 0 12px;
 }
 
 .page-header .container,
@@ -255,9 +255,24 @@ body {
 
 
 .callback {
-	margin-left: 60%;
-	margin-top: -22%;
+	border: dashed 2px;
+	padding-top: -20px;
+	padding-bottom: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
+	border-radius: 10px;
+	margin-left: 13%;
+	margin-top: 0%;
 	width: 300px;
 	text-align: right;
-	padding-bottom: 7%;
+	
+}
+
+.headtable {
+	text-align: center;
+	
+}
+
+#td1 {
+	padding-right: 50px;
 }
