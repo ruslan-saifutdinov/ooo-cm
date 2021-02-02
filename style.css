@@ -168,12 +168,18 @@ body {
 	text-align: left;
 }
 
+.table-simple {
+	max-width: 550px;
+}
+
 .item-image {
 	border: solid 1px;
 	border-color: grey;
 }
 
-
+.h2lightning {
+	margin-top: 70px;
+}
 
 
 
