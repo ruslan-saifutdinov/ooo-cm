@@ -1,0 +1,4 @@
+User-agent: 
+Crawl-delay: 1
+Host: ooocm.ru
+Sitemap: http://https://ooocm.ru/sitemap.xml
