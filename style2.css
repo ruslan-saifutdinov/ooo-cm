@@ -26,9 +26,16 @@ body {
 	
 }
 
-.container-fluid {
-	max-width: 60%;
+.container-fluid1 {
+	display: block!important;
+  margin-left: auto!important;
+  margin-right: auto!important;
 }
+
+.navbar-brand {
+    float: left;
+}
+
 
 .logo-radius {
 	border: 1px solid black;
@@ -39,10 +46,9 @@ body {
 
 main {
 	color: white;
-	width: 60%;
-	margin: auto;
-	 /*Отступ от нав-бара и снизу*/
-	
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
 	padding-bottom: 1%;
 }
 
@@ -50,29 +56,30 @@ main {
 	color: black;
 }
 
-.card {
-	
-}
 
 .sales-h2 {
 	text-shadow: 2px 2px 4px black, 0 0 1em black; /* Параметры тени */
     color: white; /* Белый цвет текста */
 	margin-bottom: 5%;
+    margin-top: 1em;
 }
 
 .col {
 	min-width: 240px!important;
 }
 
-.underheader {
-	margin-bottom: 15%;
-	min-height: 1px;
-	display: block;
+.row1 {
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .footer-text {
 	color: white!important;
-	
+}
+
+footer {
+    margin-top: 1em;
 }
 
 .logo-radius-footer {
@@ -83,9 +90,11 @@ main {
 	
 .bgcolor11-footer {
 	background-color: RGBa(255,255,255,0.3);
-	padding-top: 20px;
+	padding-top: 10px;
+    padding-bottom: 10px;
 }
 
-footer {
-	
+.hidden {
+    visibility: hidden;
 }
+
