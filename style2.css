@@ -1,0 +1,91 @@
+body {
+	
+	background-image: url(back.jpg);
+	background-position: center center;      
+	background-repeat: no-repeat;      
+    background-attachment: fixed;      
+    background-size: cover;      
+    background-color: #1C2D45; 
+	margin: 0;
+	padding: 0;
+	
+}
+
+.overlay11 {
+  background-size: cover;
+  top: 0;
+  left: 0;
+  height: 110%;
+  width: 100%;
+  z-index: 10;
+  background-color: rgba(0,0,0,0.5);
+}
+
+.bgcolor11 {
+	background-color: RGBa(255,255,255,0.9);
+	
+}
+
+.container-fluid {
+	max-width: 60%;
+}
+
+.logo-radius {
+	border: 1px solid black;
+	border-radius: 50%;
+	padding: 5px;
+	
+}
+
+main {
+	color: white;
+	width: 60%;
+	margin: auto;
+	 /*Отступ от нав-бара и снизу*/
+	
+	padding-bottom: 1%;
+}
+
+.card-text {
+	color: black;
+}
+
+.card {
+	
+}
+
+.sales-h2 {
+	text-shadow: 2px 2px 4px black, 0 0 1em black; /* Параметры тени */
+    color: white; /* Белый цвет текста */
+	margin-bottom: 5%;
+}
+
+.col {
+	min-width: 240px!important;
+}
+
+.underheader {
+	margin-bottom: 15%;
+	min-height: 1px;
+	display: block;
+}
+
+.footer-text {
+	color: white!important;
+	
+}
+
+.logo-radius-footer {
+	border: 1px solid white;
+	border-radius: 50%;
+	padding: 5px;
+}
+	
+.bgcolor11-footer {
+	background-color: RGBa(255,255,255,0.3);
+	padding-top: 20px;
+}
+
+footer {
+	
+}
