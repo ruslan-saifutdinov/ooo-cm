@@ -11,6 +11,7 @@ body {
 	
 }
 
+/*Затемнение*/
 .overlay11 {
   background-size: cover;
   top: 0;
@@ -21,17 +22,22 @@ body {
   background-color: rgba(0,0,0,0.5);
 }
 
+
+
+/*Фон шапки*/
 .bgcolor11 {
-	background-color: RGBa(255,255,255,0.9);
+		 background-color: rgba(157,225,254,0.8);
 	
 }
 
+/*Отображение шапки в центре*/
 .container-fluid1 {
 	display: block!important;
   margin-left: auto!important;
   margin-right: auto!important;
 }
 
+/*Обтекание Бренда СМ*/
 .navbar-brand {
     float: left;
 }
@@ -46,28 +52,15 @@ body {
 
 main {
 	color: white;
-	width: 70%;
+	width: 60%;
 	margin-left: auto;
 	margin-right: auto;
 	padding-bottom: 1%;
+	background-color: rgba(255,255,255,0.5);
+	padding: 2em;
 }
 
-.card-text {
-	color: black;
-}
-
-
-.sales-h2 {
-	text-shadow: 2px 2px 4px black, 0 0 1em black; /* Параметры тени */
-    color: white; /* Белый цвет текста */
-	margin-bottom: 5%;
-    margin-top: 1em;
-}
-
-.col {
-	min-width: 240px!important;
-}
-
+/*Переопределение отображения подвала*/
 .row1 {
     display:flex;
     justify-content: center;
@@ -93,8 +86,165 @@ footer {
 	padding-top: 10px;
     padding-bottom: 10px;
 }
-
+/*Спрятанный блок размер с шапку*/
 .hidden {
     visibility: hidden;
 }
 
+
+
+
+
+
+/*Параметры текста на странице светильников*/
+.sales-h2 {
+	text-shadow: 2px 2px 4px black, 0 0 1em black; /* Параметры тени */
+    color: white; /* Белый цвет текста */
+	margin-bottom: 5%;
+    margin-top: 0.5em;
+}
+
+/*Цвет текста карточек товара*/
+.card-text {
+	color: black;
+}
+
+
+
+/*Минимальная ширина карточек товара*/
+.col {
+	min-width: 240px!important;
+}
+
+
+
+
+
+.table-simple {
+	color: white;
+	
+}
+
+
+
+
+.table-lights td {
+	 padding-left: 1em;
+}
+
+.table-lights {
+	padding: 1em;
+	margin-left: auto!important;
+    margin-right: auto!important;
+}
+
+.item-image {
+	width: 80%;
+	max-width: 500px;
+}
+
+.item-page {
+	text-align: center;
+}
+
+
+
+
+.main-photo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	width: 80%;
+	max-width: 600px;
+}
+
+.mainpage h1, .mainpage h2 {
+	text-align: center;
+}
+
+.contacts-div {
+	height: 80vh;
+}
+
+
+.list-left {
+	text-align: left;
+}
+
+
+
+
+.slider {
+      position: relative;
+      overflow: hidden;
+    }
+
+    .slider__wrapper {
+      display: flex;
+      transition: transform 0.6s ease;
+    }
+
+    .slider__item {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+
+    .slider__control {
+      position: absolute;
+      top: 50%;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      width: 40px;
+      color: #fff;
+      text-align: center;
+      opacity: 0.5;
+      height: 50px;
+      transform: translateY(-50%);
+      background: rgba(0, 0, 0, .5);
+    }
+
+    .slider__control_show {
+      display: flex;
+    }
+
+    .slider__control:hover,
+    .slider__control:focus {
+      color: #fff;
+      text-decoration: none;
+      outline: 0;
+      opacity: .9;
+    }
+
+    .slider__control_left {
+      left: 0;
+    }
+
+    .slider__control_right {
+      right: 0;
+    }
+
+    .slider__control::before {
+      content: '';
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      background: transparent no-repeat center center;
+      background-size: 100% 100%;
+    }
+
+    .slider__control_left::before {
+      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+    }
+
+    .slider__control_right::before {
+      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+    }
+
+    .slider__item>div {
+      line-height: 250px;
+      font-size: 100px;
+      text-align: center;
+    }
