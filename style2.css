@@ -166,7 +166,7 @@ footer {
 }
 
 .contacts-div {
-	height: 80vh;
+	height: 80%;
 }
 
 
@@ -256,12 +256,14 @@ footer {
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: center;
-		flex-direction: row;
 		align-content: center;
+		
 			}
 	
 	.services-tr td, .fonts-1 {
 		font-size: 1.5em;
+		max-width: 500px;
+		padding-top: 2em;
 	}
 	
 	.services-photo {
@@ -277,6 +279,13 @@ footer {
 	
 	
 	
-	.main-container-page {
+	main {
 		min-height: 92vh;
+	}
+	
+	.table-contact {
+		
+		max-height: 600px;
+		padding-bottom: 1em;
+		
 	}
