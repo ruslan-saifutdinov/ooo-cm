@@ -157,7 +157,7 @@ footer {
 	margin-right: auto;
 	margin-top: 1em;
 	margin-bottom: 1em;
-	width: 80%;
+	width: 100%;
 	max-width: 800px;
 }
 
@@ -270,7 +270,7 @@ footer {
 	margin-right: auto;
 	margin-top: 1em;
 	margin-bottom: 1em;
-	width: 80%;
+	width: 100%;
 	max-width: 600px;
 	
 	}
@@ -278,5 +278,5 @@ footer {
 	
 	
 	.main-container-page {
-		height: 92vh;
+		min-height: 92vh;
 	}
