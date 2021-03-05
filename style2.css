@@ -52,8 +52,7 @@ body {
 
 main {
 	color: white;
-	width: 100%;
-	max-width: 1200px;
+	width: 60%;
 	margin-left: auto;
 	margin-right: auto;
 	padding-bottom: 1%;
@@ -158,7 +157,7 @@ footer {
 	margin-top: 1em;
 	margin-bottom: 1em;
 	width: 80%;
-	max-width: 600px;
+	max-width: 800px;
 }
 
 .mainpage h1, .mainpage h2 {
@@ -249,3 +248,34 @@ footer {
       font-size: 100px;
       text-align: center;
     }
+	
+	
+	
+	.services-tr {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		flex-direction: row;
+		align-content: center;
+			}
+	
+	.services-tr td, .fonts-1 {
+		font-size: 1.5em;
+	}
+	
+	.services-photo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	width: 80%;
+	max-width: 600px;
+	
+	}
+	
+	
+	
+	.main-container-page {
+		height: 92vh;
+	}
