@@ -293,3 +293,23 @@ footer {
 		padding-bottom: 1em;
 		
 	}
+	
+	
+	
+	.num800 {
+		font-weight: bold;
+		padding: 1em;
+		background: gray;
+		border: dashed 1px black;
+		width: 90%;
+		max-width: 600px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 1em;
+		margin-bottom: 1em;
+		
+	}
+	
+	.num800 a {
+		font-size: 150%;
+			}
